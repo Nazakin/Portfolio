@@ -1,0 +1,35 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+ul, ol {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+button{
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+h1, p {
+margin: 0;
+padding: 0;
+}
+
+body{
+  font-family: "Roboto Condensed", sans-serif;;
+}
+
+:root {
+  --logo-text-color: black;
+  --logo-text-hover-color: blue;
+  --navigation-buttons-color: #334155;
+  --navigation-buttons-hover-color: #2563eb;
+  --hire-me-button-color: #FAFAFA;
+  --hire-me-button-background-color: #0f172A;
+  --hire-me-button-background-hover-color: #1e293b;
+}
