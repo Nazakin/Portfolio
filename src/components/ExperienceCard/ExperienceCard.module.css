@@ -21,23 +21,23 @@
 
 .iconWrapper {
   padding: 8px;
-  background: linear-gradient(to bottom right, #3b82f6, #8b5cf6);
+  background: linear-gradient(to bottom right, var(--gradient-blue-start), var(--gradient-purple-end));
   border-radius: 8px;
 }
 
 .iconWrapper svg {
-  stroke: white;
+  stroke: var(--text-white);
 }
 
 .title {
   font-size: 20px;
   font-weight: 600;
-  color: #0f172a;
+  color: var(--text-primary);
   margin-bottom: 4px;
 }
 
 .company {
-  color: #475569;
+  color: var(--text-tertiary);
   font-size: 15px;
   font-weight: 500;
 }
@@ -45,15 +45,15 @@
 .period {
   font-size: 12px;
   font-weight: 600;
-  color: #334155;
-  border: 1px solid #cbd5e1;
+  color: var(--text-quaternary);
+  border: 1px solid var(--border-gray-300);
   border-radius: 6px;
   padding: 4px 10px;
   align-self: flex-start;
 }
 
 .description {
-  color: #475569;
+  color: var(--text-tertiary);
   line-height: 1.6;
   margin-bottom: 16px;
 }
@@ -65,7 +65,7 @@
 .sectionTitle {
   font-size: 16px;
   font-weight: 600;
-  color: #0f172a;
+  color: var(--text-primary);
   margin-bottom: 8px;
 }
 
@@ -76,14 +76,14 @@
 }
 
 .achievementItem {
-  color: #475569;
+  color: var(--text-tertiary);
   display: flex;
   align-items: flex-start;
   margin-bottom: 4px;
 }
 
 .bullet {
-  color: #3b82f6;
+  color: var(--accent-blue-500);
   margin-right: 8px;
 }
 
@@ -96,9 +96,9 @@
 .techBadge {
   font-size: 12px;
   font-weight: 600;
-  color: #1d4ed8;
-  background-color: #eff6ff;
-  border: 1px solid #bfdbfe;
+  color: var(--accent-blue-700);
+  background-color: var(--background-blue-50);
+  border: 1px solid var(--border-blue-300);
   border-radius: 6px;
   padding: 4px 10px;
 }

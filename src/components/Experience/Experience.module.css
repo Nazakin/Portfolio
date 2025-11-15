@@ -4,7 +4,7 @@
   align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(to bottom, #f8fafc, #ffffff);
+  background: linear-gradient(to bottom, var(--background-gray-50), var(--background-white));
 }
 
 .cardContainer {

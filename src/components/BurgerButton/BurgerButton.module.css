@@ -4,8 +4,13 @@
   transition: background-color 0.3s ease;
 }
 
+.burgerButton svg {
+    stroke: var(--text-quaternary);
+
+}
+
 .burgerButton:hover {
-  background-color: #f1f5f9;
+  background-color: var(--background-gray-100);
 }
 
 @media screen and (min-width: 840px) {

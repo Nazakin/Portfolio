@@ -16,10 +16,10 @@ type Props = {
 const CardContact: React.FunctionComponent<Props> = ({ item }) => {
   const { title, link } = item;
 
-  const truncateLink = (link: string, maxLength = 40) => {
+  const truncateLink = (link: string, maxLength = 30) => {
     if (link.length <= maxLength) return link.replace("mailto:", "");
     const cleanLink = link.replace("mailto:", "");
-    return cleanLink.slice(0, 40) + "...";
+    return cleanLink.slice(0, 30) + "...";
   };
 
   return (

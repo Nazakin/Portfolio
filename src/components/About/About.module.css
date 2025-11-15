@@ -16,9 +16,9 @@
 .myImage {
   width: 336px;
   height: 384px;
-  border: 3px solid white;
+  border: 3px solid var(--text-white);
   border-radius: 8px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 25px 50px -12px var(--shadow-xl);
   object-fit: cover;
 }
 .aboutMeDescription {
@@ -30,23 +30,22 @@
 }
 
 .cardContainer {
-  display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-    flex: 1 1 auto;
-  min-width: 0; 
-  max-width: 100%;
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
 
 }
 
 @media (min-width: 640px) {
   .cardContainer {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .cardContainer {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 }

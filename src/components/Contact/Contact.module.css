@@ -1,6 +1,6 @@
 .contactContainer {
   padding: 80px 0;
-  background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+  background: linear-gradient(to bottom, var(--background-gray-50), var(--background-gray-100));
   display: flex;
   align-items: center;
   flex-direction: column;

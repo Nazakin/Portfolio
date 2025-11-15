@@ -31,7 +31,7 @@ const Hero: React.FunctionComponent = () => {
       </p>
       <div className={styles.actionButtonsContainer}>
         <Button text="View my work" onClick={() => scrollTo("experience")} icon={<IconDown />} />
-        <Button text="Get in Touch" onClick={() => scrollTo("hire")} variant="secondary" />
+        <Button text="Get in Touch" onClick={() => scrollTo("contact")} variant="secondary" />
       </div>
       <div className={styles.linksContainer}>
         {LINK_ITEMS.map((item, index) => (

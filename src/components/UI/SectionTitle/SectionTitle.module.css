@@ -1,7 +1,7 @@
 .aboutTitle {
   font-size: 36px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--text-primary);
   margin-bottom: 16px;
 }
 
@@ -13,8 +13,10 @@
 .gradientLine {
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #2563eb, #9333ea);
+  background: linear-gradient(to right, var(--gradient-title-start), var(--gradient-title-end));
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 16px;
+  outline: none;
+  border: none;
 }

@@ -16,13 +16,13 @@
   background-color: var(--hire-me-button-background-hover-color);
 }
 .buttonSecondary {
-  color: #cbd5e1;
+  color: var(--button-secondary-color);
   font-weight: 500;
   font-size: 16px;
-  background-color: #ffffff;
+  background-color: var(--button-secondary-background);
   border-radius: 4px;
   padding: 8px 16px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--button-secondary-border);
   transition:
     background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
     color 300ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -32,13 +32,13 @@
 }
 
 .buttonSecondary:hover {
-  background-color: #2563eb;
-  color: #ffffff;
+  background-color: var(--button-secondary-hover-background);
+  color: var(--button-secondary-hover-color);
 }
 .buttonPrimary svg {
   height: 20px;
   width: 20px;
 }
 .buttonPrimary svg path {
-  fill: white;
+  fill: var(--text-white);
 }

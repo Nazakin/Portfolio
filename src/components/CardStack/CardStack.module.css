@@ -14,19 +14,19 @@
 .techTitle {
   font-size: 20px;
   font-weight: 700;
-  color: #111827;
+  color: var(--text-quinary);
 }
 
 .techItem {
   padding: 6px 12px;
-  background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background-color: var(--background-gray-50);
+  border: 1px solid var(--border-gray-200);
   border-radius: 8px;
   font-size: 14px;
-  color: #334155;
+  color: var(--text-quaternary);
   transition: background-color 0.3s ease;
 }
 
 .techItem:hover {
-  background-color: #f1f5f9;
+  background-color: var(--background-gray-100);
 }

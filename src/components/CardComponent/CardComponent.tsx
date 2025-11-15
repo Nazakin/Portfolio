@@ -11,13 +11,13 @@ type Props = {
 
 const CardComponent: React.FunctionComponent<Props> = ({ title, desc, icon }) => {
   return (
-    <CardWrapper center>
+    <div className={styles.cardComponentWrapper}>
       <IconWrapper width={48} height={48}>
         {icon}
       </IconWrapper>
       <h6 className={styles.cardTitle}>{title}</h6>
       <p className={styles.cardDesc}>{desc}</p>
-    </CardWrapper>
+    </div>
   );
 };
 

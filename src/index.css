@@ -35,14 +35,143 @@ p {
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--background-gray-50);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 :root {
+  /* Logo colors */
   --logo-text-color: black;
   --logo-text-hover-color: blue;
+
+  /* Navigation colors */
   --navigation-buttons-color: #334155;
   --navigation-buttons-hover-color: #2563eb;
+
+  /* Button colors */
   --hire-me-button-color: #fafafa;
   --hire-me-button-background-color: #0f172a;
   --hire-me-button-background-hover-color: #1e293b;
+  --button-secondary-color: #cbd5e1;
+  --button-secondary-background: #ffffff;
+  --button-secondary-border: #e5e5e5;
+  --button-secondary-hover-background: #2563eb;
+  --button-secondary-hover-color: #ffffff;
+
+  /* Text colors */
+  --text-primary: #0f172a;
+  --text-secondary: #1f2937;
+  --text-tertiary: #475569;
+  --text-quaternary: #334155;
+  --text-quinary: #111827;
+  --text-white: #ffffff;
+
+  /* Background colors */
+  --background-white: #ffffff;
+  --background-gray-50: #f8fafc;
+  --background-gray-100: #f1f5f9;
+  --background-blue-50: #eff6ff;
+
+  /* Border colors */
+  --border-gray-200: #e2e8f0;
+  --border-gray-300: #cbd5e1;
+  --border-gray-400: #e5e5e5;
+  --border-blue-300: #bfdbfe;
+
+  /* Accent colors */
+  --accent-blue-500: #3b82f6;
+  --accent-blue-600: #2563eb;
+  --accent-blue-700: #1d4ed8;
+  --accent-purple-500: #8b5cf6;
+  --accent-purple-600: #9333ea;
+
+  /* Gradient colors */
+  --gradient-blue-start: #3b82f6;
+  --gradient-purple-end: #8b5cf6;
+  --gradient-hero-start: #f8fafc;
+  --gradient-hero-middle: rgba(219, 234, 254, 0.3);
+  --gradient-hero-end: #f8fafc;
+  --gradient-title-start: #2563eb;
+  --gradient-title-end: #9333ea;
+
+  /* Shadow colors */
+  --shadow-sm: rgba(0, 0, 0, 0.05);
+  --shadow-md: rgba(0, 0, 0, 0.1);
+  --shadow-lg: rgba(0, 0, 0, 0.15);
+  --shadow-xl: rgba(0, 0, 0, 0.25);
+  --shadow-overlay: rgba(0, 0, 0, 0.4);
+  --shadow-badge: #0000000d;
+
+  /* Special colors */
+  --purple-blur: rgba(192, 132, 252, 0.1);
+  --header-scrolled-bg: rgba(255, 255, 255, 0.95);
+}
+
+:root.dark {
+  /* Logo colors */
+  --logo-text-color: #ffffff;
+  --logo-text-hover-color: #60a5fa;
+
+  /* Navigation colors */
+  --navigation-buttons-color: #cbd5e1;
+  --navigation-buttons-hover-color: #60a5fa;
+
+  /* Button colors */
+  --hire-me-button-color: #0f172a;
+  --hire-me-button-background-color: #60a5fa;
+  --hire-me-button-background-hover-color: #3b82f6;
+  --button-secondary-color: #94a3b8;
+  --button-secondary-background: #1e293b;
+  --button-secondary-border: #334155;
+  --button-secondary-hover-background: #3b82f6;
+  --button-secondary-hover-color: #ffffff;
+
+  /* Text colors */
+  --text-primary: #f1f5f9;
+  --text-secondary: #e2e8f0;
+  --text-tertiary: #cbd5e1;
+  --text-quaternary: #94a3b8;
+  --text-quinary: #f8fafc;
+  --text-white: #ffffff;
+
+  /* Background colors */
+  --background-white: #1e293b;
+  --background-gray-50: #0f172a;
+  --background-gray-100: #1e293b;
+  --background-blue-50: #1e3a8a;
+
+  /* Border colors */
+  --border-gray-200: #334155;
+  --border-gray-300: #475569;
+  --border-gray-400: #475569;
+  --border-blue-300: #1e40af;
+
+  /* Accent colors */
+  --accent-blue-500: #60a5fa;
+  --accent-blue-600: #3b82f6;
+  --accent-blue-700: #93c5fd;
+  --accent-purple-500: #a78bfa;
+  --accent-purple-600: #9333ea;
+
+  /* Gradient colors */
+  --gradient-blue-start: #60a5fa;
+  --gradient-purple-end: #a78bfa;
+  --gradient-hero-start: #0f172a;
+  --gradient-hero-middle: rgba(59, 130, 246, 0.15);
+  --gradient-hero-end: #0f172a;
+  --gradient-title-start: #60a5fa;
+  --gradient-title-end: #a78bfa;
+
+  /* Shadow colors */
+  --shadow-sm: rgba(0, 0, 0, 0.3);
+  --shadow-md: rgba(0, 0, 0, 0.4);
+  --shadow-lg: rgba(0, 0, 0, 0.5);
+  --shadow-xl: rgba(0, 0, 0, 0.6);
+  --shadow-overlay: rgba(0, 0, 0, 0.7);
+  --shadow-badge: rgba(0, 0, 0, 0.3);
+
+  /* Special colors */
+  --purple-blur: rgba(167, 139, 250, 0.2);
+  --header-scrolled-bg: rgba(15, 23, 42, 0.95);
 }

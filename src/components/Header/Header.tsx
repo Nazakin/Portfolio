@@ -6,6 +6,7 @@ import Button from "../UI/Button/Button";
 import { useScroll } from "../../hooks/useScroll";
 import BurgerButton from "../BurgerButton/BurgerButton";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import ThemeButton from "../ThemeButton/ThemeButton";
 
 const Header: React.FunctionComponent = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,6 +32,7 @@ const Header: React.FunctionComponent = () => {
             {name}
           </button>
         ))}
+        <ThemeButton />
         <Button text="Hire me" onClick={() => scrollTo("contact")} />
       </nav>
       <BurgerButton open={menuOpen} setOpen={setMenuOpen} />
