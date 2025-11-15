@@ -1,6 +1,10 @@
 .iconWrapper {
   padding: 8px;
-  background: linear-gradient(to bottom right, var(--gradient-blue-start), var(--gradient-purple-end));
+  background: linear-gradient(
+    to bottom right,
+    var(--gradient-blue-start),
+    var(--gradient-purple-end)
+  );
   border-radius: 8px;
   display: flex;
   align-items: center;

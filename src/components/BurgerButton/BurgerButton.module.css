@@ -5,8 +5,7 @@
 }
 
 .burgerButton svg {
-    stroke: var(--text-quaternary);
-
+  stroke: var(--text-quaternary);
 }
 
 .burgerButton:hover {

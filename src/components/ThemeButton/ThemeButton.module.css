@@ -1,11 +1,11 @@
-.themeButton{
-    padding: 8px;
-    border-radius: 8px;
-    transition: background-color 150ms ease-in-out;
+.themeButton {
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 150ms ease-in-out;
 }
-.themeButton:hover{
-    background-color: var(--background-gray-100);
+.themeButton:hover {
+  background-color: var(--background-gray-100);
 }
 .themeButton svg {
-    stroke: var(--text-quaternary);;
+  stroke: var(--text-quaternary);
 }

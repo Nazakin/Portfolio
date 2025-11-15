@@ -12,8 +12,6 @@
     transform 0.3s ease;
 }
 
-
-
 .cardWrapper:hover {
   box-shadow: 0 10px 15px var(--shadow-md);
   transform: translateY(-4px);

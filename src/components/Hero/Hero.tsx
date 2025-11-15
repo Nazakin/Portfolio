@@ -8,7 +8,7 @@ import IconLinkedIn from "../Icons/IconLinkedIn";
 import LinkItem from "../LinkItem/LinkItem";
 import { useScroll } from "../../hooks/useScroll";
 
-export const LINK_ITEMS = [
+const LINK_ITEMS = [
   { icon: <IconGitHub />, href: "https://github.com/Nazakin" },
   { icon: <IconLinkedIn />, href: "https://www.linkedin.com/in/nazar-kuchynskyi-a77613291/" },
   { icon: <IconMail />, href: "mailto:nazarkuchynskyi@gmail.com" },

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const useChangeTheme = (): { toggleTheme: () => void, theme: "light" | "dark" } => {
+export const useChangeTheme = (): { toggleTheme: () => void; theme: "light" | "dark" } => {
   const [theme, setTheme] = useState<"light" | "dark">(() => {
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
     return savedTheme || "light";

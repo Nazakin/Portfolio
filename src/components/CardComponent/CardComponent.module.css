@@ -1,5 +1,4 @@
-
-  .cardComponentWrapper {
+.cardComponentWrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,8 +12,6 @@
     box-shadow 0.3s ease,
     transform 0.3s ease;
 }
-
-
 
 .cardComponentWrapper:hover {
   box-shadow: 0 10px 15px var(--shadow-md);
