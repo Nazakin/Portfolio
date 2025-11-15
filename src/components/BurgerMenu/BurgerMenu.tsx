@@ -3,6 +3,7 @@ import styles from "./BurgerMenu.module.css";
 import { NAVIGATION } from "../../consts";
 import { useScroll } from "../../hooks/useScroll";
 import Button from "../UI/Button/Button";
+import ThemeButton from "../ThemeButton/ThemeButton.tsx";
 
 type Props = {
   setMenuOpen: (open: boolean) => void;
@@ -32,6 +33,7 @@ const BurgerMenu: React.FunctionComponent<Props> = ({ setMenuOpen }) => {
           </button>
         ))}
         <Button text="Hire me" onClick={() => handleClick("contact")} />
+        <ThemeButton />
       </div>
     </div>
   );
