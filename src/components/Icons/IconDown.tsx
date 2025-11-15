@@ -1,6 +1,6 @@
 import React from "react";
 
-const IconDown = () => {
+const IconDown: React.FunctionComponent = () => {
   return (
     <svg
       width="800px"

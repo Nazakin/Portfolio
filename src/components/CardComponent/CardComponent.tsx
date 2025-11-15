@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./CardComponent.module.css";
-import CardWrapper from "../CardWrapper/CardWrapper";
 import IconWrapper from "../IconWrapper/IconWrapper";
 
 type Props = {

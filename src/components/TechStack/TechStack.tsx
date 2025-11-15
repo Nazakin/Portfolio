@@ -3,10 +3,9 @@ import styles from "./TechStack.module.css";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import SectionDesc from "../UI/SectionDesc/SectionDesc";
 import { TECH_STACK } from "../../consts";
-import CardWrapper from "../CardWrapper/CardWrapper";
 import CardStack from "../CardStack/CardStack";
 
-const TechStack = () => {
+const TechStack: React.FunctionComponent = () => {
   return (
     <section id="tech-stack" className={styles.techContainer}>
       <SectionTitle>Tech Stack</SectionTitle>
