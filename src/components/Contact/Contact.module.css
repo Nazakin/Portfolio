@@ -1,0 +1,25 @@
+.contactContainer {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .contactContainer {
+    padding: 128px 0;
+  }
+}
+
+.contactCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.legal {
+  margin-top: 150px;
+}

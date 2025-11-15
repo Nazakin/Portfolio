@@ -1,0 +1,64 @@
+.navigationButtons {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1f2937;
+  transition: color 0.3s ease;
+}
+
+.navigationButtons:hover {
+  color: #3b82f6;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 9998;
+  top: 75px;
+}
+
+.mobileMenu {
+  background-color: white;
+  width: 250px;
+  height: fit-content;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 12px 0 0 12px;
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+  animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.mobileMenuButton {
+  font-size: 18px;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.mobileMenuButton:hover {
+  color: #3b82f6;
+}
+@media screen and (min-width: 840px) {
+  .overlay {
+    display: none;
+  }
+}

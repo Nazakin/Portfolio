@@ -1,10 +1,10 @@
-import { useCallback } from 'react';
+import { useCallback } from "react";
 
 export const useScroll = () => {
   const scrollToSection = useCallback((id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
 

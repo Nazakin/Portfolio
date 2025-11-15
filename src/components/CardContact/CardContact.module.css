@@ -1,0 +1,13 @@
+.contactConatiner {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.contactInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactDesc {
+  font-size: 14px;
+}

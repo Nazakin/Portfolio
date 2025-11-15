@@ -1,27 +1,40 @@
-*, *::before, *::after {
-box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-ul, ol {
-margin: 0;
-padding: 0;
-list-style: none;
+a {
+  text-decoration: none;
 }
 
-button{
-    outline: none;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-h1, p {
-margin: 0;
-padding: 0;
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
-body{
-  font-family: "Roboto Condensed", sans-serif;;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 :root {
@@ -29,7 +42,7 @@ body{
   --logo-text-hover-color: blue;
   --navigation-buttons-color: #334155;
   --navigation-buttons-hover-color: #2563eb;
-  --hire-me-button-color: #FAFAFA;
-  --hire-me-button-background-color: #0f172A;
+  --hire-me-button-color: #fafafa;
+  --hire-me-button-background-color: #0f172a;
   --hire-me-button-background-hover-color: #1e293b;
 }

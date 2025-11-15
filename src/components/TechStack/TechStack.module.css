@@ -1,0 +1,24 @@
+.techContainer {
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techItemsContainer {
+  margin: 40px 0;
+  display: grid;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .techItemsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .techItemsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

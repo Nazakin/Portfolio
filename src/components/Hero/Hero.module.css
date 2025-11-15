@@ -54,18 +54,20 @@
   color: #475569;
   margin-bottom: 32px;
 }
-.actionButtonsContainer{
-    display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
+
+.actionButtonsContainer {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 48px;
 }
-.linksContainer{
-    display: flex;
-    gap: 30px;
+.linksContainer {
+  display: flex;
+  gap: 30px;
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {

@@ -1,0 +1,22 @@
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(to bottom, #f8fafc, #ffffff);
+}
+
+.cardContainer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .experienceContainer {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}

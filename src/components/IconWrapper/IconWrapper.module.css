@@ -1,0 +1,12 @@
+.iconWrapper {
+  padding: 8px;
+  background: linear-gradient(to bottom right, #3b82f6, #8b5cf6);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconWrapper svg {
+  stroke: white;
+}

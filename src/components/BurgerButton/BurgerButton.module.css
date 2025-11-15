@@ -1,0 +1,15 @@
+.burgerButton {
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.burgerButton:hover {
+  background-color: #f1f5f9;
+}
+
+@media screen and (min-width: 840px) {
+  .burgerButton {
+    display: none;
+  }
+}
