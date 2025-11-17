@@ -22,7 +22,7 @@ const Header: React.FunctionComponent = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <header className={`${styles.headerContainer} ${isScrolled ? styles.scrolled : ""}`}>
+    <header className={`${styles.headerContainer} ${isScrolled || menuOpen? styles.scrolled : ""}`}>
       <span onClick={() => scrollTo("hero")}>
         <Logo />
       </span>
