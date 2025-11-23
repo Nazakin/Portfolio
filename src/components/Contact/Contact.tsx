@@ -16,7 +16,7 @@ const Contact: React.FunctionComponent = () => {
           <CardContact item={item} />
         ))}
       </div>
-      <p className={styles.legal}>© 2024 Your Name. Built with React & Next.js</p>
+      <p className={styles.legal}>© 2025 Nazar Kuchynskyi. Built with React & Next.js</p>
     </section>
   );
 };
