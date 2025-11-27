@@ -54,6 +54,27 @@ export const EXPERIENCE_ITEMS = [
       "Formik",
     ],
   },
+  {
+    title: "Frontend Developer",
+    company: "Beloved Software Inc.",
+    period: "03/2023 – 12/2023",
+    description:
+      "Spearheaded the development of a large-scale online marketplace, utilizing React as the core framework. Ensured a pixel-perfect, engaging user experience and maintained high security and code quality standards.",
+    achievements: [
+      "Engineered core front-end functionality, enhancing seller experience through dynamic pagination and drag-and-drop features.",
+      "Implemented a secure user authentication flow with **JWT** for access controls and integrated **Formik** for improved input validation.",
+      "Developed critical features for the **Admin Panel**, including data visualization for sales performance metrics.",
+      "Established clean, maintainable code standards, prioritizing security and performance throughout the project lifecycle.",
+    ],
+    technologies: [
+      "React",
+      "Redux",
+      "JavaScript",
+      "JWT",
+      "Formik",
+      "Yap"
+    ],
+  },
 ];
 
 export const TECH_STACK = [
